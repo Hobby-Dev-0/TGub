@@ -1,4 +1,4 @@
-FROM python:slim-buster
+FROM python:slim-buster #
 
 RUN apt update && apt upgrade -y && \
     apt install --no-install-recommends -y \
